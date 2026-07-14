@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: binance-futures-testnet-trading-bot
+Version: 0.1.0
+Summary: A simplified Binance Futures Testnet trading bot with validation and logging.
+Requires-Python: >=3.10

@@ -1,0 +1,15 @@
+README.md
+cli.py
+pyproject.toml
+binance_futures_testnet_trading_bot.egg-info/PKG-INFO
+binance_futures_testnet_trading_bot.egg-info/SOURCES.txt
+binance_futures_testnet_trading_bot.egg-info/dependency_links.txt
+binance_futures_testnet_trading_bot.egg-info/entry_points.txt
+binance_futures_testnet_trading_bot.egg-info/top_level.txt
+bot/__init__.py
+bot/client.py
+bot/logging_config.py
+bot/orders.py
+bot/validators.py
+tests/test_orders.py
+tests/test_validators.py
