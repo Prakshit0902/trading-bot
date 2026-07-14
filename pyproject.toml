@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "binance-futures-testnet-trading-bot"
+version = "0.1.0"
+description = "A simplified Binance Futures Testnet trading bot with validation and logging."
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32.3",
+    "typer>=0.12.3",
+    "rich>=13.7.1",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.7.0",
+    "questionary>=2.0.1"
+]
+
+[project.scripts]
+trading-bot = "cli:main"
+
+[tool.setuptools]
+py-modules = ["cli"]
+
+[tool.setuptools.packages.find]
+include = ["bot*"]
